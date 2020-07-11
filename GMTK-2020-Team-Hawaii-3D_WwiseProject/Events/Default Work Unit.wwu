@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A639AE57-1B64-48A7-B293-AAEDE5AB09C6}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A639AE57-1B64-48A7-B293-AAEDE5AB09C6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A639AE57-1B64-48A7-B293-AAEDE5AB09C6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Flower_Pot_Break" ID="{4A1A19C3-DE01-45A4-8CEF-2937CBB88494}">
+					<ChildrenList>
+						<Action Name="" ID="{A42CF9E2-4E9F-40D9-9B38-40545617B639}" ShortID="315499813">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Frying_Pan" ID="{AC988313-9457-4CAF-AC89-99AED027E0C0}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Toaster" ID="{E6DDAF00-DC96-42F8-B175-82F5342B9E0D}">
+					<ChildrenList>
+						<Action Name="" ID="{FC7D0830-6ED9-4F07-8F0F-60DDE520F1CF}" ShortID="826670675">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start_Toaster" ID="{55562505-1B03-4894-8D19-55670289BB03}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E652995F-C48D-4D67-84F1-CACF13647310}" ShortID="359762753">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Toaster_Done" ID="{424ADCBB-C88C-444C-8644-4AB401C07136}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Knife_Slice" ID="{948CF3DA-56E9-4E6C-90B7-3C644FC5D086}">
+					<ChildrenList>
+						<Action Name="" ID="{DF908A3C-698B-451C-98C7-B3A01E22FA60}" ShortID="113868536">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Knife_Slice" ID="{52A71758-E66A-46C3-B1EF-28F78E29FD4A}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Knife_Spread" ID="{8A9E8360-7F77-4263-A360-654E117C118F}">
+					<ChildrenList>
+						<Action Name="" ID="{3C32552A-EE6C-4ED2-A744-71CC907F2A7A}" ShortID="213967949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Knife_Spread" ID="{8C661E44-2035-431E-BCEB-F92807ADDE28}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2904656527	Knife_Slice			\Default Work Unit\Knife_Slice	
+	3611497574	Play_Toaster			\Default Work Unit\Play_Toaster	
+	3660758196	Flower_Pot_Break			\Default Work Unit\Flower_Pot_Break	
+	3678374822	Knife_Spread			\Default Work Unit\Knife_Spread	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	333767623	Start_Toaster	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Start_Toaster_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Toaster\Start_Toaster		327648
+	566302518	Frying_Pan	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Frying_Pan_FBC9C7EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Frying_Pan		226280
+	659916289	Knife_Spread	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Spread_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Spread		440244
+	720047862	Toaster_Done	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Toaster_Done_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Toaster\Toaster_Done		297284
+	996287810	Knife_Slice	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Slice_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Slice		383564
+
