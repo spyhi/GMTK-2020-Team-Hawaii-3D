@@ -46,5 +46,12 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+# Wwise
+/GMTK-2020-Team-Hawaii-3D_WwiseProject/*.cache
+/GMTK-2020-Team-Hawaii-3D_WwiseProject/*.backup
+/GMTK-2020-Team-Hawaii-3D_WwiseProject/*.validationcache
+/GMTK-2020-Team-Hawaii-3D_WwiseProject/*.wsettings
+/GMTK-2020-Team-Hawaii-3D_WwiseProject/*.wem
+
 # Crashlytics generated file
 crashlytics-build.properties
