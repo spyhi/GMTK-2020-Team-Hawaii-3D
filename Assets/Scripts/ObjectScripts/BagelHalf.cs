@@ -28,16 +28,22 @@ public class BagelHalf : MonoBehaviour
     {
         if (toasterSlotOccupied == null && (other.transform.gameObject.name == "ToasterSlot1" || other.transform.gameObject.name == "ToasterSlot2"))
         {
-            toasterSlotOccupied = other.transform.gameObject;
-            other.transform.localPosition = new Vector3(other.transform.localPosition.x, 0, 0);
-            this.transform.SetParent(toasterSlotOccupied.transform);
-            this.transform.localPosition = new Vector3(0.3f, 0f, 0);
-            this.transform.localRotation = Quaternion.identity;
-            this.GetComponent<MeshCollider>().isTrigger = true;
-            this.GetComponent<Rigidbody>().isKinematic = true;
-            this.gameObject.layer = 11; //grabbable
-            bagelscript.numCookingBagels += 1;
-            print("Entered a toast! Total: " + bagelscript.numCookingBagels);
+            if (other.transform.parent.Find("Fire(Clone)") == null) {
+                toasterSlotOccupied = other.transform.gameObject;
+                other.transform.localPosition = new Vector3(other.transform.localPosition.x, 0, 0);
+                this.transform.SetParent(toasterSlotOccupied.transform);
+                this.transform.localPosition = new Vector3(0.3f, 0f, 0);
+                this.transform.localRotation = Quaternion.identity;
+                this.GetComponent<MeshCollider>().isTrigger = true;
+                this.GetComponent<Rigidbody>().isKinematic = true;
+                this.gameObject.layer = 0; //not grabbable
+                bagelscript.numCookingBagels += 1;
+                print("Entered a toast! Total: " + bagelscript.numCookingBagels);
+            }
+            else
+            {
+                //oh no the toaster is on fire
+            }
         }
     }
 
@@ -50,6 +56,7 @@ public class BagelHalf : MonoBehaviour
             toasterSlotOccupied = null;
             bagelscript.numCookingBagels -= 1;
         }
+        this.gameObject.layer = 11; //grabbable
         this.transform.position = this.transform.position + new Vector3(1, 0, 0); //"spring" to prevent glitchy interaction
         this.GetComponent<MeshCollider>().isTrigger = false;
         if (this.gameObject.layer != 8)

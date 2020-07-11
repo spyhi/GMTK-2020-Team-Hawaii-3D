@@ -17,19 +17,18 @@ public class hand_controller : MonoBehaviour
             if (gameObject.transform.childCount == 0){
                 if(target.attachedRigidbody.CompareTag("CanGrab"))
                 {
-                    target.attachedRigidbody.transform.SetParent(gameObject.transform);
-                    target.attachedRigidbody.transform.localPosition = new Vector3(0, 0, 0);
-                    SetAllToLayer(target.attachedRigidbody.transform, 8, 11); // Find parent rigidbody and set all children to layer 8: grabbed object
-                    target.attachedRigidbody.isKinematic = true;
-                    Debug.Log("Grabbed " + target.attachedRigidbody.name);
+                    if (target.attachedRigidbody.transform.Find("Fire(Clone)") == null)
+                    {
+                        Pickup(target.attachedRigidbody.gameObject);
+                    }
+                    else
+                    {
+                        print("Ouch your fingies");
+                    }
                 }
             }
             else{
-                Rigidbody grabbedObject = gameObject.transform.GetChild(0).GetComponent<Rigidbody>();
-                grabbedObject.isKinematic = false;
-                SetAllToLayer(grabbedObject.transform, 11, 8); // 11: interactable / grabbable objects
-
-                gameObject.transform.DetachChildren();
+                DropHeld();
             }
         }
     }
@@ -49,5 +48,26 @@ public class hand_controller : MonoBehaviour
         {
             SetAllToLayer(obj.GetChild(i), layer, from);
         }
+    }
+
+    public void DropHeld()
+    {
+        if (gameObject.transform.childCount != 0)
+        {
+            Rigidbody grabbedObject = gameObject.transform.GetChild(0).GetComponent<Rigidbody>();
+            grabbedObject.isKinematic = false;
+            SetAllToLayer(grabbedObject.transform, 11, 8); // 11: interactable / grabbable objects
+            gameObject.transform.DetachChildren();
+        }
+    }
+
+    public void Pickup(GameObject object1)
+    {
+        DropHeld();
+        object1.transform.SetParent(gameObject.transform);
+        object1.transform.localPosition = new Vector3(0, 0, 0);
+        SetAllToLayer(object1.transform, 8, 11); // Find parent rigidbody and set all children to layer 8: grabbed object
+        object1.GetComponent<Rigidbody>().isKinematic = true;
+        Debug.Log("Grabbed " + object1.name);
     }
 }

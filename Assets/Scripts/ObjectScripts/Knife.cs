@@ -16,7 +16,7 @@ public class Knife : MonoBehaviour
     {
         if(gameObject.layer == 8) //if being held snap position and rotation
         {
-            gameObject.transform.localPosition = new Vector3(0.44f, -0.33f, -0.65f);
+            gameObject.transform.localPosition = new Vector3(0.5f, -0.2f, -0.4f);
             gameObject.transform.localRotation = Quaternion.Euler(-30, -100, -60);
         }
     }
