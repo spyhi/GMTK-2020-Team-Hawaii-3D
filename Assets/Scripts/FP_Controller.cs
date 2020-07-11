@@ -10,8 +10,6 @@ public class FP_Controller : MonoBehaviour
     public float move_speed = 0.01f;
     public float mouse_sensitivity = 1.0f;
     public float jump_power = 1.0f;
-    public float max_ry = 80;
-    public float min_ry = -80;
 
     private bool grounded = true;
 
@@ -38,7 +36,7 @@ public class FP_Controller : MonoBehaviour
         float cam_angle = cam.transform.rotation.x;
 
         //check ground
-        if (Physics.Raycast(transform.position, -transform.up, 1.5f)){
+        if (Physics.Raycast(transform.position, -transform.up, 2.55f)){
             grounded = true;
         }
         else{
