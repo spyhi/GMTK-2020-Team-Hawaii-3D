@@ -6,6 +6,7 @@ public class BagelHalf : MonoBehaviour
 {
     GameObject toasterSlotOccupied = null;
     public Bagels bagelscript;
+    public hand_controller handscript;
 
     int BagelEntryBufferFrames = 0;
     // Start is called before the first frame update
@@ -29,6 +30,7 @@ public class BagelHalf : MonoBehaviour
         if (toasterSlotOccupied == null && (other.transform.gameObject.name == "ToasterSlot1" || other.transform.gameObject.name == "ToasterSlot2"))
         {
             if (other.transform.parent.Find("Fire(Clone)") == null) {
+                handscript.DropHeld();
                 toasterSlotOccupied = other.transform.gameObject;
                 other.transform.localPosition = new Vector3(other.transform.localPosition.x, 0, 0);
                 this.transform.SetParent(toasterSlotOccupied.transform);

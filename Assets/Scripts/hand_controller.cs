@@ -8,6 +8,14 @@ using UnityEngine;
 public class hand_controller : MonoBehaviour
 {
     public Collider target;
+    public GameObject noObject; //"null object", but it has a name parameter, so no need to try/catch or check null
+    public GameObject currentHeldObject;
+
+    private void Start()
+    {
+        currentHeldObject = noObject;
+    }
+
     void Update(){
         if (target != null)
         {
@@ -54,6 +62,7 @@ public class hand_controller : MonoBehaviour
     {
         if (gameObject.transform.childCount != 0)
         {
+            currentHeldObject = noObject;
             Rigidbody grabbedObject = gameObject.transform.GetChild(0).GetComponent<Rigidbody>();
             grabbedObject.isKinematic = false;
             SetAllToLayer(grabbedObject.transform, 11, 8); // 11: interactable / grabbable objects
@@ -63,6 +72,7 @@ public class hand_controller : MonoBehaviour
 
     public void Pickup(GameObject object1)
     {
+        currentHeldObject = object1;
         DropHeld();
         object1.transform.SetParent(gameObject.transform);
         object1.transform.localPosition = new Vector3(0, 0, 0);
