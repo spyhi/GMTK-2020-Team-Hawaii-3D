@@ -50,6 +50,69 @@
 								<MediaID ID="566302518"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="Glass_Break" ID="{0058B83D-4236-400F-84D0-2621880DE22B}">
+							<Language>SFX</Language>
+							<AudioFile>Glass_Break.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="593793034"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Heavy_item_pickup" ID="{0A4ACD08-E8B8-4141-8C97-EF34BCC035ED}">
+							<Language>SFX</Language>
+							<AudioFile>Heavy_item_pickup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="331045393"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Knife_Fall_to_Ground" ID="{1FDEAAF1-2430-4F2A-9740-8FFD111EBBB7}">
+							<Language>SFX</Language>
+							<AudioFile>Knife_Fall_to_Ground.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="8509423"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Knife_Fall_to_Table" ID="{5FA85703-34A1-481A-BDFF-BAF4F2431887}">
+							<Language>SFX</Language>
+							<AudioFile>Knife_Fall_to_Table.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="384693662"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Light_item_pickup" ID="{24881280-6B17-4F2A-B40A-DE73CEF8C001}">
+							<Language>SFX</Language>
+							<AudioFile>Light_item_pickup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="162298469"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Running_Faucet" ID="{CE744061-D91C-4DF0-AA9C-81279AFA926D}">
+							<Language>SFX</Language>
+							<AudioFile>Running_Faucet.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="675909500"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Toilet" ID="{6036EECC-60CA-4AB4-BCE8-EB3EEA61F535}">
+							<Language>SFX</Language>
+							<AudioFile>Toilet.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="862515109"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Turn_Off_Faucet" ID="{428DAC25-B0F7-4288-A4D3-890B020D90C1}">
+							<Language>SFX</Language>
+							<AudioFile>Turn_Off_Faucet.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1041705656"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Turn_On_Faucet" ID="{9FBCC72A-C25A-434D-8FF2-1F4474480050}">
+							<Language>SFX</Language>
+							<AudioFile>Turn_On_Faucet.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="429210336"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Frying_Pan" ID="{2EF17437-8FBA-4757-9934-1D71AF886EA2}" Platform="Linked"/>
@@ -607,6 +670,50 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="Light_item_pickup" ID="{0E81DD5E-A5B9-42A3-990C-376317F0F90C}" ShortID="31284461">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Light_item_pickup" ID="{1A257E88-EE60-4B76-A079-974F4E858529}">
+									<Language>SFX</Language>
+									<AudioFile>Light_item_pickup.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="931667527"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Light_item_pickup" ID="{1A257E88-EE60-4B76-A079-974F4E858529}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heavy_item_pickup" ID="{AE01893E-C175-4945-88DD-51ED2785F1E9}" ShortID="869728808">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heavy_item_pickup" ID="{E5D9566D-8D4E-4138-AE59-E88487A88FEE}">
+									<Language>SFX</Language>
+									<AudioFile>Heavy_item_pickup.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="404647811"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heavy_item_pickup" ID="{E5D9566D-8D4E-4138-AE59-E88487A88FEE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Fire_Interaction" ID="{D7020B60-1F1C-4DAF-BF4E-14737F380461}" ShortID="307547187">
@@ -863,6 +970,164 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Knife_Spread" ID="{3223572D-F9AF-4920-88D6-B8D85BFEE417}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Knife_Fall_to_Table" ID="{7FA2384E-60E8-421D-8159-9BB45AA946BB}" ShortID="20116299">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Knife_Fall_to_Table" ID="{2DEBE347-D05C-4CB1-9B93-91B421771536}">
+									<Language>SFX</Language>
+									<AudioFile>Knife_Fall_to_Table.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="831662318"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Knife_Fall_to_Table" ID="{2DEBE347-D05C-4CB1-9B93-91B421771536}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Knife_Fall_to_Ground" ID="{DC641DD7-3D2C-4636-A276-3E7FBFDEF633}" ShortID="142130293">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Knife_Fall_to_Ground" ID="{B1642850-0DDA-4623-BAA0-A022D22F3B91}">
+									<Language>SFX</Language>
+									<AudioFile>Knife_Fall_to_Ground.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1044387165"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Knife_Fall_to_Ground" ID="{B1642850-0DDA-4623-BAA0-A022D22F3B91}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Toilet" ID="{46348DCE-4DF1-41E4-8B7E-DBDB25078DCC}" ShortID="62462261">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Toilet" ID="{85F807BA-04CD-4DBB-B443-C21C4B499B01}">
+							<Language>SFX</Language>
+							<AudioFile>Toilet.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="6496801"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Toilet" ID="{85F807BA-04CD-4DBB-B443-C21C4B499B01}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Glass_Break" ID="{AC10970F-EDFA-4D70-BD1B-841CB141A03C}" ShortID="116892499">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Glass_Break" ID="{4E305D15-0326-4ABE-B92E-49DB7740FFCF}">
+							<Language>SFX</Language>
+							<AudioFile>Glass_Break.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1052134396"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Glass_Break" ID="{4E305D15-0326-4ABE-B92E-49DB7740FFCF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Faucet" ID="{91A3A46C-5000-4485-82A9-6C6A09D273A6}" ShortID="705599121">
+					<ChildrenList>
+						<Sound Name="Running_Faucet" ID="{36FC7FA1-5712-4342-BF4D-22C45DAEBFAC}" ShortID="919379226">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Running_Faucet" ID="{CE79A1B3-3EC5-4801-A127-F131DA5DBC10}">
+									<Language>SFX</Language>
+									<AudioFile>Running_Faucet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="693106043"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Running_Faucet" ID="{CE79A1B3-3EC5-4801-A127-F131DA5DBC10}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Turn_Off_Faucet" ID="{8419584A-B3C2-40B5-A862-E371FF5BC555}" ShortID="477221575">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Turn_Off_Faucet" ID="{F6D28AEE-2030-405E-A28A-DA0749D66629}">
+									<Language>SFX</Language>
+									<AudioFile>Turn_Off_Faucet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="207800099"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Turn_Off_Faucet" ID="{F6D28AEE-2030-405E-A28A-DA0749D66629}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Turn_On_Faucet" ID="{7B5FF149-629A-411C-98ED-206BC1061B40}" ShortID="836839452">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Turn_On_Faucet" ID="{70403AB3-E650-4CD6-BE38-B23E3A082F98}">
+									<Language>SFX</Language>
+									<AudioFile>Turn_On_Faucet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1034065971"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Turn_On_Faucet" ID="{70403AB3-E650-4CD6-BE38-B23E3A082F98}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

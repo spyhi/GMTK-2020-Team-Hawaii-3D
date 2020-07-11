@@ -8,7 +8,7 @@
 						<Action Name="" ID="{A42CF9E2-4E9F-40D9-9B38-40545617B639}" ShortID="315499813">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Frying_Pan" ID="{AC988313-9457-4CAF-AC89-99AED027E0C0}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+									<ObjectRef Name="Flower_Pot_Break" ID="{513C999A-C74A-47B1-8B90-A2446A6EFD0B}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,6 +52,83 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Knife_Spread" ID="{8C661E44-2035-431E-BCEB-F92807ADDE28}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Knife_Fall_To_Ground" ID="{EBA84A87-6C41-41FB-BA23-83AFDE027409}">
+					<ChildrenList>
+						<Action Name="" ID="{E9C2F72E-8DEC-478B-8D2F-E117408B7C8F}" ShortID="512090053">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Knife_Fall_to_Ground" ID="{DC641DD7-3D2C-4636-A276-3E7FBFDEF633}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Knife_Fall_To_Table" ID="{65EB5F6A-9F18-4F71-8896-93A3132BF5CB}">
+					<ChildrenList>
+						<Action Name="" ID="{516AB398-C24E-4DE8-857D-A0FBD6807E0D}" ShortID="204811935">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Knife_Fall_to_Table" ID="{7FA2384E-60E8-421D-8159-9BB45AA946BB}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pick_up_light_item" ID="{C70E8ECC-5AC9-4D2F-8498-D6A79D372970}">
+					<ChildrenList>
+						<Action Name="" ID="{5E828BC6-2430-4ED7-A3B6-B669674E546B}" ShortID="181426557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light_item_pickup" ID="{0E81DD5E-A5B9-42A3-990C-376317F0F90C}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pick_up_heavy_item" ID="{64157566-26EB-4DFB-A7BE-7C37BCE5A35E}">
+					<ChildrenList>
+						<Action Name="" ID="{19A73492-3EC5-41E2-9FFF-98FD8773843B}" ShortID="351623351">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heavy_item_pickup" ID="{AE01893E-C175-4945-88DD-51ED2785F1E9}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Step" ID="{13B4B6B5-D2CE-4837-B197-E18D9897BFD5}">
+					<ChildrenList>
+						<Action Name="" ID="{4D06F323-FF88-4FAA-8CB1-6981186A810D}" ShortID="36007653">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tile" ID="{B9FBE306-B456-4B77-91D5-ED1528C16F68}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Toilet_Flush" ID="{D80D1483-ED9A-4B4C-AB5D-2C7AE695BF06}">
+					<ChildrenList>
+						<Action Name="" ID="{443CC211-ECA2-4394-B326-951D2847E780}" ShortID="858178721">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Toilet" ID="{46348DCE-4DF1-41E4-8B7E-DBDB25078DCC}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Glass_Break" ID="{5C6BBAE5-C06C-48F7-BD7A-C4EE60D88194}">
+					<ChildrenList>
+						<Action Name="" ID="{F85ED02E-57B1-46FE-A783-D39E1C37C862}" ShortID="951569864">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Glass_Break" ID="{AC10970F-EDFA-4D70-BD1B-841CB141A03C}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
