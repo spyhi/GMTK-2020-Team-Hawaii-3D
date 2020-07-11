@@ -12,14 +12,132 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba38bf274825a304e9ac6109e42183f8, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 5eb159018072fd4db3f6436468fd8768
+    GuidInternal: 
+    m_lastTime: -8586071706303633173
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 8a4c81667872fd458a383fdf3053c7ea
+    GuidInternal: 
+    m_lastTime: -8586071669060383431
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: a9a414d751462d468fe13194404e1655
+    GuidInternal: 
+    m_lastTime: -8586071661604451352
+    List:
+    - name: Main
+      guid: aa82c939ac24ce438250458baf7d2088
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 57ae39a6641ba748b293aaede5ab09c6
+    GuidInternal: 
+    m_lastTime: -8586071662783455025
+    List:
+    - name: Flower_Pot_Break
+      guid: c3191a4a01dea4458cef2937cbb88494
+      id: 3660758196
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flower_Pot_Break
+        ObjectType: 3
+      Path: Default Work Unit\Flower_Pot_Break
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Knife_Slice
+      guid: daf38c94e9566c4e90b73c644fc5d086
+      id: 2904656527
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Knife_Slice
+        ObjectType: 3
+      Path: Default Work Unit\Knife_Slice
+      maxAttenuation: 0
+      maxDuration: 2.07586
+      minDuration: 2.07586
+    - name: Knife_Spread
+      guid: 60839e8a777f6342a360654e117c118f
+      id: 3678374822
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Knife_Spread
+        ObjectType: 3
+      Path: Default Work Unit\Knife_Spread
+      maxAttenuation: 0
+      maxDuration: 2.495352
+      minDuration: 2.495352
+    - name: Play_Toaster
+      guid: 00afdde696dcf842b17582f5342b9e0d
+      id: 3611497574
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Toaster
+        ObjectType: 3
+      Path: Default Work Unit\Play_Toaster
+      maxAttenuation: 0
+      maxDuration: 3.684921
+      minDuration: 3.684921
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 63b4615ba10fd74aabcca620fea326ad
+    GuidInternal: 
+    m_lastTime: -8586071706303434153
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 5c5302eb5c19de43854049561d8897ff
+    GuidInternal: 
+    m_lastTime: -8586071706303194832
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 42c617ae287e574e978a143436c8fd14
+    GuidInternal: 
+    m_lastTime: -8586071706302965011
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: bf48eb8f4b29c54ea94f04be318333fa
+    GuidInternal: 
+    m_lastTime: -8586071706303593358
+    List: []
+  ExpandedItems:
+  - /GMTK-2020-Team-Hawaii-3D_WwiseProject
+  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Events
+  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Events/Default Work Unit
+  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/SoundBanks
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
