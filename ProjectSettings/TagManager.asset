@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Environment
   - CanGrab
+  - PleaseDoNotTransform
   layers:
   - Default
   - TransparentFX
@@ -15,10 +16,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Grabbed Object
+  - Player
+  - ReachingHands
+  - InteractableObject
   - 
   - 
   - 

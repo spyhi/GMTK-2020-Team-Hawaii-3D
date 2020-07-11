@@ -18,6 +18,17 @@ public class FP_Controller : MonoBehaviour
 
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Tab)) //button to toggle cursor lock, for testing
+        {
+            if (Cursor.lockState == CursorLockMode.Locked)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            } else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+        }
+
         //mouse x and y are not game-space x and y
         float ry = Input.GetAxis("Mouse X") * mouse_sensitivity;
         float rx = Input.GetAxis("Mouse Y") * mouse_sensitivity;  
@@ -36,8 +47,17 @@ public class FP_Controller : MonoBehaviour
         
         //rotations
         gameObject.transform.Rotate(0, ry, 0, Space.Self);
-        rx = Mathf.Clamp(rx, min_ry, max_ry);
-        cam.transform.eulerAngles = cam.transform.eulerAngles + new Vector3(-rx, 0, 0f);
+        //Nightmare rotation clamping, do not touch
+        if (rx < 0 && cam.transform.eulerAngles.x - rx > 80 && cam.transform.eulerAngles.x - rx < 180)
+        {
+            cam.transform.eulerAngles = new Vector3(80, cam.transform.eulerAngles.y, cam.transform.eulerAngles.z);
+        } else if (rx > 0 && 180 < cam.transform.eulerAngles.x - rx && cam.transform.eulerAngles.x - rx < 280)
+        {
+            cam.transform.eulerAngles = new Vector3(280, cam.transform.eulerAngles.y, cam.transform.eulerAngles.z);
+        } else
+        {
+            cam.transform.eulerAngles = cam.transform.eulerAngles + new Vector3(-rx, 0, 0f);
+        }
 
         //movement
         transform.Translate(new Vector3(move_lr * move_speed, 0, move_fb * move_speed));
