@@ -21,11 +21,35 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3660758196" Name="Flower_Pot_Break" ObjectPath="\Events\Default Work Unit\Flower_Pot_Break" DurationType="Infinite">
+				<Event Id="3660758196" Name="Flower_Pot_Break" ObjectPath="\Events\Default Work Unit\Flower_Pot_Break" DurationType="OneShot" DurationMin="1.766848" DurationMax="1.766848">
 					<IncludedMemoryFiles>
-						<File Id="566302518" Language="SFX">
-							<ShortName>Frying_Pan.wav</ShortName>
-							<Path>SFX\Frying_Pan_FBC9C7EB.wem</Path>
+						<File Id="695901837" Language="SFX">
+							<ShortName>Flower_Pot_Break.wav</ShortName>
+							<Path>SFX\Flower_Pot_Break_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4072963231" Name="Glass_Break" ObjectPath="\Events\Default Work Unit\Glass_Break" DurationType="OneShot" DurationMin="1.587664" DurationMax="1.587664">
+					<IncludedMemoryFiles>
+						<File Id="1052134396" Language="SFX">
+							<ShortName>Glass_Break.wav</ShortName>
+							<Path>SFX\Glass_Break_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="151037018" Name="Knife_Fall_To_Ground" ObjectPath="\Events\Default Work Unit\Knife_Fall_To_Ground" DurationType="OneShot" DurationMin="1.955669" DurationMax="1.955669">
+					<IncludedMemoryFiles>
+						<File Id="1044387165" Language="SFX">
+							<ShortName>Knife_Fall_to_Ground.wav</ShortName>
+							<Path>SFX\Knife_Fall_to_Ground_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3797642581" Name="Knife_Fall_To_Table" ObjectPath="\Events\Default Work Unit\Knife_Fall_To_Table" DurationType="OneShot" DurationMin="1.740295" DurationMax="1.740295">
+					<IncludedMemoryFiles>
+						<File Id="831662318" Language="SFX">
+							<ShortName>Knife_Fall_to_Table.wav</ShortName>
+							<Path>SFX\Knife_Fall_to_Table_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -45,6 +69,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3599771080" Name="Pick_up_heavy_item" ObjectPath="\Events\Default Work Unit\Pick_up_heavy_item" DurationType="OneShot" DurationMin="1.281383" DurationMax="1.281383">
+					<IncludedMemoryFiles>
+						<File Id="404647811" Language="SFX">
+							<ShortName>Heavy_item_pickup.wav</ShortName>
+							<Path>SFX\Heavy_item_pickup_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2407603051" Name="Pick_up_light_item" ObjectPath="\Events\Default Work Unit\Pick_up_light_item" DurationType="OneShot" DurationMin="1.213220" DurationMax="1.213220">
+					<IncludedMemoryFiles>
+						<File Id="931667527" Language="SFX">
+							<ShortName>Light_item_pickup.wav</ShortName>
+							<Path>SFX\Light_item_pickup_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3611497574" Name="Play_Toaster" ObjectPath="\Events\Default Work Unit\Play_Toaster" DurationType="OneShot" DurationMin="3.684921" DurationMax="3.684921">
 					<IncludedMemoryFiles>
 						<File Id="333767623" Language="SFX">
@@ -54,6 +94,22 @@
 						<File Id="720047862" Language="SFX">
 							<ShortName>Toaster_Done.wav</ShortName>
 							<Path>SFX\Toaster_Done_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3461836331" Name="Player_Step" ObjectPath="\Events\Default Work Unit\Player_Step" DurationType="OneShot" DurationMin="1.215139" DurationMax="1.371848">
+					<IncludedMemoryFiles>
+						<File Id="180771755" Language="SFX">
+							<ShortName>Step_on_Tile_Light.wav</ShortName>
+							<Path>SFX\Step_on_Tile_Light_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3116711629" Name="Toilet_Flush" ObjectPath="\Events\Default Work Unit\Toilet_Flush" DurationType="OneShot" DurationMin="6.010884" DurationMax="6.010884">
+					<IncludedMemoryFiles>
+						<File Id="6496801" Language="SFX">
+							<ShortName>Toilet.wav</ShortName>
+							<Path>SFX\Toilet_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
