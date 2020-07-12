@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID KNIFE_FALL_TO_TABLE = 3797642581U;
         static const AkUniqueID KNIFE_SLICE = 2904656527U;
         static const AkUniqueID KNIFE_SPREAD = 3678374822U;
+        static const AkUniqueID MUSIC_SETS = 3146000110U;
         static const AkUniqueID PICK_UP_HEAVY_ITEM = 3599771080U;
         static const AkUniqueID PICK_UP_LIGHT_ITEM = 2407603051U;
         static const AkUniqueID PLAY_TOASTER = 3611497574U;
