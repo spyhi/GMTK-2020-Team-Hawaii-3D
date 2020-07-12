@@ -5,11 +5,15 @@ using UnityEngine;
 public class Extinguisher : MonoBehaviour
 {
     public Collider blastZone;
+    public GameObject smoke;
+    private ParticleSystem system;
+    
     Rigidbody myrigidbody;
     // Start is called before the first frame update
     void Start()
     {
         myrigidbody = this.GetComponent<Rigidbody>();
+        system = smoke.GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -20,9 +24,15 @@ public class Extinguisher : MonoBehaviour
             gameObject.transform.localPosition = new Vector3(0.87f, -0.55f, -0.65f);
             gameObject.transform.localRotation = Quaternion.Euler(-20, -175, -13);
             blastZone.enabled = true;
+            smoke.SetActive(true);
+            system.Play();
         } else
         {
             blastZone.enabled = false;
+            //for whatever reason .Stop() seems to kill it permenantly
+            system.Pause();
+            // system.Stop(false, ParticleSystemStopBehavior.StopEmitting);
+            smoke.SetActive(false);
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -31,8 +41,8 @@ public class Extinguisher : MonoBehaviour
         {
             if (other.tag == "Fire")
             {
-                GameObject.Destroy(other.gameObject);
                 print("Fire found!");
+                GameObject.Destroy(other.gameObject);
             }
             else
             {
@@ -40,5 +50,4 @@ public class Extinguisher : MonoBehaviour
             }
         }
     }
-
 }

@@ -5,6 +5,13 @@ using UnityEngine;
 public class Knife : MonoBehaviour
 {
     public Bagels bagelscript;
+    public float xVector;
+    public float yVector;
+    public float zVector;
+
+    public float xQuat;
+    public float yQuat;
+    public float zQuat;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +23,8 @@ public class Knife : MonoBehaviour
     {
         if(gameObject.layer == 8) //if being held snap position and rotation
         {
-            gameObject.transform.localPosition = new Vector3(0.5f, -0.2f, -0.4f);
-            gameObject.transform.localRotation = Quaternion.Euler(-30, -100, -60);
+            gameObject.transform.localPosition = new Vector3(xVector, yVector, zVector);
+            gameObject.transform.localRotation = Quaternion.Euler(xQuat, yQuat, zQuat);
         }
     }
 
