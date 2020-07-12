@@ -21,6 +21,34 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Fire" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="87583565" Language="SFX">
+							<ShortName>Fire.wav</ShortName>
+							<Path>SFX\Fire_3EC9BF23.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3462152561" Name="Fire_Extinguisher" ObjectPath="\Events\Default Work Unit\Fire_Extinguisher" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="262059204" Language="SFX">
+							<ShortName>Long_Fire_Extinguisher.wav</ShortName>
+							<Path>SFX\Long_Fire_Extinguisher_88391E8E.wem</Path>
+						</File>
+						<File Id="481512966" Language="SFX">
+							<ShortName>Long_Fire_Extinguisher.wav</ShortName>
+							<Path>SFX\Long_Fire_Extinguisher_2DF477F6.wem</Path>
+						</File>
+						<File Id="568820653" Language="SFX">
+							<ShortName>Long_Fire_Extinguisher.wav</ShortName>
+							<Path>SFX\Long_Fire_Extinguisher_81DE3BF9.wem</Path>
+						</File>
+						<File Id="717737513" Language="SFX">
+							<ShortName>Long_Fire_Extinguisher.wav</ShortName>
+							<Path>SFX\Long_Fire_Extinguisher_1547A9DA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3660758196" Name="Flower_Pot_Break" ObjectPath="\Events\Default Work Unit\Flower_Pot_Break" DurationType="OneShot" DurationMin="1.766848" DurationMax="1.766848">
 					<IncludedMemoryFiles>
 						<File Id="695901837" Language="SFX">
@@ -105,6 +133,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="609746822" Name="Stop_Fire_Extinguisher" ObjectPath="\Events\Default Work Unit\Stop_Fire_Extinguisher" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3116711629" Name="Toilet_Flush" ObjectPath="\Events\Default Work Unit\Toilet_Flush" DurationType="OneShot" DurationMin="6.010884" DurationMax="6.010884">
 					<IncludedMemoryFiles>
 						<File Id="6496801" Language="SFX">

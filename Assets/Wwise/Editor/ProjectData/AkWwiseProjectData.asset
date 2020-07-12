@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a9a414d751462d468fe13194404e1655
     GuidInternal: 
-    m_lastTime: -8586070656085758202
+    m_lastTime: -8586070298671203601
     List:
     - name: Main
       guid: aa82c939ac24ce438250458baf7d2088
@@ -65,8 +65,32 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 57ae39a6641ba748b293aaede5ab09c6
     GuidInternal: 
-    m_lastTime: -8586070667024110385
+    m_lastTime: -8586070298671123825
     List:
+    - name: Fire
+      guid: bbb3d5825065c448aa13b3e00df248a6
+      id: 2678880713
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Fire
+        ObjectType: 3
+      Path: Default Work Unit\Fire
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Fire_Extinguisher
+      guid: 2ecae9d94d71e945891b080a0ebade2f
+      id: 3462152561
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Fire_Extinguisher
+        ObjectType: 3
+      Path: Default Work Unit\Fire_Extinguisher
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: Flower_Pot_Break
       guid: c3191a4a01dea4458cef2937cbb88494
       id: 3660758196
@@ -199,6 +223,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.371848
       minDuration: 1.215139
+    - name: Stop_Fire_Extinguisher
+      guid: b6e60716f47258498385c0d1e7001540
+      id: 609746822
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Fire_Extinguisher
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Fire_Extinguisher
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Toilet_Flush
       guid: 83140dd89aed4c4bab5d2c7ae695bf06
       id: 3116711629
@@ -326,9 +362,6 @@ MonoBehaviour:
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Events
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Events/Default Work Unit
-  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/SoundBanks
-  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/SoundBanks/Default Work Unit
-  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/States
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Switches
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Switches/Default Work Unit
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Switches/Default Work Unit/Sets

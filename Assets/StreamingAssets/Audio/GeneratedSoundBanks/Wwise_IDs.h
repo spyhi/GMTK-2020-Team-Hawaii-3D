@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FIRE = 2678880713U;
+        static const AkUniqueID FIRE_EXTINGUISHER = 3462152561U;
         static const AkUniqueID FLOWER_POT_BREAK = 3660758196U;
         static const AkUniqueID GLASS_BREAK = 4072963231U;
         static const AkUniqueID KNIFE_FALL_TO_GROUND = 151037018U;
@@ -24,6 +26,7 @@ namespace AK
         static const AkUniqueID PICK_UP_LIGHT_ITEM = 2407603051U;
         static const AkUniqueID PLAY_TOASTER = 3611497574U;
         static const AkUniqueID PLAYER_STEP = 3461836331U;
+        static const AkUniqueID STOP_FIRE_EXTINGUISHER = 609746822U;
         static const AkUniqueID TOILET_FLUSH = 3116711629U;
     } // namespace EVENTS
 
