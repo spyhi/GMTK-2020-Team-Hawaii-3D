@@ -19,24 +19,10 @@ public class SFXmanager : MonoBehaviour
 
     private void Update()
     {
-
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if(hands.target)
+        if (Input.GetButtonDown("Fire1") && gameObject.transform.childCount == 0 && hands.target.attachedRigidbody.CompareTag("CanGrab") && hands.target.attachedRigidbody.transform.Find("Fire(Clone)") == null)
         {
             PickupItem.Post(gameObject);
         }
-
-        //if (hands.target.attachedRigidbody.transform.Find("Fire(Clone)") != null)
-        //{
-
-        //}
-        //else
-        //{
-        //    PickupItem.Post(gameObject);
-        //}
-
     }
+
 }
