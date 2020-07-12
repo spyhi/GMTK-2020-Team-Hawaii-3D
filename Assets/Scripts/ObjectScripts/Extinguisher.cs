@@ -29,7 +29,9 @@ public class Extinguisher : MonoBehaviour
         } else
         {
             blastZone.enabled = false;
+            //for whatever reason .Stop() seems to kill it permenantly
             system.Pause();
+            // system.Stop(false, ParticleSystemStopBehavior.StopEmitting);
             smoke.SetActive(false);
         }
     }
