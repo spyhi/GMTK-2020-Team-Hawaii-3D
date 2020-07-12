@@ -25,7 +25,7 @@
 					<IncludedMemoryFiles>
 						<File Id="695901837" Language="SFX">
 							<ShortName>Flower_Pot_Break.wav</ShortName>
-							<Path>SFX\Flower_Pot_Break_10C4C929.wem</Path>
+							<Path>SFX\Flower_Pot_Break_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -33,7 +33,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1052134396" Language="SFX">
 							<ShortName>Glass_Break.wav</ShortName>
-							<Path>SFX\Glass_Break_10C4C929.wem</Path>
+							<Path>SFX\Glass_Break_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -41,7 +41,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1044387165" Language="SFX">
 							<ShortName>Knife_Fall_to_Ground.wav</ShortName>
-							<Path>SFX\Knife_Fall_to_Ground_10C4C929.wem</Path>
+							<Path>SFX\Knife_Fall_to_Ground_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -49,7 +49,7 @@
 					<IncludedMemoryFiles>
 						<File Id="831662318" Language="SFX">
 							<ShortName>Knife_Fall_to_Table.wav</ShortName>
-							<Path>SFX\Knife_Fall_to_Table_10C4C929.wem</Path>
+							<Path>SFX\Knife_Fall_to_Table_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,7 +57,7 @@
 					<IncludedMemoryFiles>
 						<File Id="996287810" Language="SFX">
 							<ShortName>Knife_Slice.wav</ShortName>
-							<Path>SFX\Knife_Slice_10C4C929.wem</Path>
+							<Path>SFX\Knife_Slice_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -65,7 +65,7 @@
 					<IncludedMemoryFiles>
 						<File Id="659916289" Language="SFX">
 							<ShortName>Knife_Spread.wav</ShortName>
-							<Path>SFX\Knife_Spread_10C4C929.wem</Path>
+							<Path>SFX\Knife_Spread_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -73,7 +73,7 @@
 					<IncludedMemoryFiles>
 						<File Id="404647811" Language="SFX">
 							<ShortName>Heavy_item_pickup.wav</ShortName>
-							<Path>SFX\Heavy_item_pickup_10C4C929.wem</Path>
+							<Path>SFX\Heavy_item_pickup_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -81,7 +81,7 @@
 					<IncludedMemoryFiles>
 						<File Id="931667527" Language="SFX">
 							<ShortName>Light_item_pickup.wav</ShortName>
-							<Path>SFX\Light_item_pickup_10C4C929.wem</Path>
+							<Path>SFX\Light_item_pickup_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -89,11 +89,11 @@
 					<IncludedMemoryFiles>
 						<File Id="333767623" Language="SFX">
 							<ShortName>Start_Toaster.wav</ShortName>
-							<Path>SFX\Start_Toaster_10C4C929.wem</Path>
+							<Path>SFX\Start_Toaster_3F75BDB9.wem</Path>
 						</File>
 						<File Id="720047862" Language="SFX">
 							<ShortName>Toaster_Done.wav</ShortName>
-							<Path>SFX\Toaster_Done_10C4C929.wem</Path>
+							<Path>SFX\Toaster_Done_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -101,7 +101,7 @@
 					<IncludedMemoryFiles>
 						<File Id="180771755" Language="SFX">
 							<ShortName>Step_on_Tile_Light.wav</ShortName>
-							<Path>SFX\Step_on_Tile_Light_10C4C929.wem</Path>
+							<Path>SFX\Step_on_Tile_Light_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -109,11 +109,16 @@
 					<IncludedMemoryFiles>
 						<File Id="6496801" Language="SFX">
 							<ShortName>Toilet.wav</ShortName>
-							<Path>SFX\Toilet_10C4C929.wem</Path>
+							<Path>SFX\Toilet_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
