@@ -563,12 +563,24 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 93c6840945aa6464081c1eef3aca2de0,
       type: 2}
-  switchSet:
-    idInternal: 0
+  switchSets:
+  - idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d869dfd63fed0054c84852be3b9c4acd,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0b7ff9d3a0815c84fb4bee4075ad5d8e,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5ea631a28d1a8b6458997193ac018f00,
       type: 2}
 --- !u!1 &290369279
 GameObject:
@@ -774,6 +786,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  noObject: {fileID: 0}
+  currentHeldObject: {fileID: 0}
 --- !u!65 &441828707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2336,6 +2350,7 @@ MonoBehaviour:
   FireInstantiable: {fileID: 1363159760}
   bagelscript: {fileID: 2143585283}
   handscript: {fileID: 441828706}
+  completion: 0
 --- !u!1 &991051699
 GameObject:
   m_ObjectHideFlags: 0
