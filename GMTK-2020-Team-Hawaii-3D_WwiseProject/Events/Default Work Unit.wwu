@@ -145,6 +145,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Fire_Extinguisher" ID="{D9E9CA2E-714D-45E9-891B-080A0EBADE2F}">
+					<ChildrenList>
+						<Action Name="" ID="{62CDAAD8-6F24-48F6-8870-4EE9EA40C78A}" ShortID="781402254">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Long_Burst_Fire_Extinguisher" ID="{5B32EBC6-43E2-4FDE-9652-57A45F3D7E71}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fire" ID="{82D5B3BB-6550-48C4-AA13-B3E00DF248A6}">
+					<ChildrenList>
+						<Action Name="" ID="{35953F1B-D266-4561-9DB5-04AA78C1ABC2}" ShortID="84857222">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire" ID="{6085A1FB-3DD4-498F-9737-2E10CFA1D9C6}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Fire_Extinguisher" ID="{1607E6B6-72F4-4958-8385-C0D1E7001540}">
+					<ChildrenList>
+						<Action Name="" ID="{0DBDE1E1-FA76-4F2B-AF80-9588DAF68323}" ShortID="596525687">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Long_Burst_Fire_Extinguisher" ID="{5B32EBC6-43E2-4FDE-9652-57A45F3D7E71}" WorkUnitID="{BC5D9D55-D7AF-4D58-A1D3-C16148A0382F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

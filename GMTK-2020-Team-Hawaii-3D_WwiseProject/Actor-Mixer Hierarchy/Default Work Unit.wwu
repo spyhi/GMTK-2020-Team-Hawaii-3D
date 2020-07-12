@@ -1026,59 +1026,14 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Fire" ID="{9F15E553-347A-474B-8912-784289AB1341}" ShortID="647279271">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Fire" ID="{C2340875-100C-4804-A986-E1F21AF35871}">
-									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="1"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.0397417933878488"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Fire.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="87583565"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Fire" ID="{C2340875-100C-4804-A986-E1F21AF35871}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Long_Fire_Extinguisher" ID="{EE66774F-0C3C-466A-98C4-5075AC5000CE}" ShortID="255107296">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Long_Fire_Extinguisher" ID="{AFD1A73B-80EA-4334-9D54-0B815467FE09}">
-									<Language>SFX</Language>
-									<AudioFile>Long_Fire_Extinguisher.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="481512966"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Long_Fire_Extinguisher" ID="{AFD1A73B-80EA-4334-9D54-0B815467FE09}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Small_Burst_Fire_Extinguisher" ID="{73E0C841-B6D8-4080-A312-53FC19CAD66F}" ShortID="885543180">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
@@ -1100,6 +1055,377 @@
 								<ActiveSource Name="Small_Burst_Fire_Extinguisher" ID="{E224F3B4-A9E3-44B0-8B5A-0ECFEC9DBCA6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Long_Burst_Fire_Extinguisher" ID="{5B32EBC6-43E2-4FDE-9652-57A45F3D7E71}" ShortID="688263141">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{1B052E8D-77A0-41BB-8C22-63F4654C67B3}" ShortID="1062995412">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{DF1AC1AA-C6EA-4EE9-8793-5FE8D44520F8}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Long_Fire_Extinguisher" ID="{EE66774F-0C3C-466A-98C4-5075AC5000CE}" ShortID="255107296">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX" ID="{BE7FBC91-4729-4D8E-A1E1-1E948448D76C}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Long_Fire_Extinguisher" ID="{AFD1A73B-80EA-4334-9D54-0B815467FE09}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.274533844189017"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.24324612297026"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Long_Fire_Extinguisher.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="717737513"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Long_Fire_Extinguisher" ID="{AFD1A73B-80EA-4334-9D54-0B815467FE09}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Long_Fire_Extinguisher_01" ID="{4D43DF5D-B41C-41F5-A417-A3F5E62621D6}" ShortID="133338234">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX" ID="{BE7FBC91-4729-4D8E-A1E1-1E948448D76C}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Long_Fire_Extinguisher" ID="{C68134B1-A9A5-498E-BC3B-8153448EE2C2}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.343167305236271"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.25501185914979"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Long_Fire_Extinguisher.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="262059204"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Long_Fire_Extinguisher" ID="{C68134B1-A9A5-498E-BC3B-8153448EE2C2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Long_Fire_Extinguisher_02" ID="{D7E55F8C-2DD8-4DB4-B487-CEBB74CB2509}" ShortID="432889384">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX" ID="{BE7FBC91-4729-4D8E-A1E1-1E948448D76C}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Long_Fire_Extinguisher" ID="{0D2D01FF-6B4A-46FA-8CA6-744BDD7361E1}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.456902754971721"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.21383178252144"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Long_Fire_Extinguisher.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="568820653"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Long_Fire_Extinguisher" ID="{0D2D01FF-6B4A-46FA-8CA6-744BDD7361E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Long_Fire_Extinguisher_03" ID="{E1029BAF-8532-433A-88C9-6A26BD92C3A7}" ShortID="471992394">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX" ID="{BE7FBC91-4729-4D8E-A1E1-1E948448D76C}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Long_Fire_Extinguisher" ID="{1CD8D45E-59F5-42C9-88D5-B1ADD4DBB03A}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.356893997445722"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.25501185914979"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Long_Fire_Extinguisher.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="481512966"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Long_Fire_Extinguisher" ID="{1CD8D45E-59F5-42C9-88D5-B1ADD4DBB03A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{63F9CEC1-FCAD-4B79-B018-94194356555C}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="13.0177514792899"/>
+										<Property Name="PanY" Type="Real64" Value="20.9048361934477"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Fire" ID="{6085A1FB-3DD4-498F-9737-2E10CFA1D9C6}" ShortID="140323553">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{F536F74F-BAFA-40FD-8191-0AFAD98B4376}" ShortID="1013490197">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{F1E91605-979D-4BAF-806B-F30E41854A1B}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Fire" ID="{9F15E553-347A-474B-8912-784289AB1341}" ShortID="647279271">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX" ID="{BE7FBC91-4729-4D8E-A1E1-1E948448D76C}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fire" ID="{C2340875-100C-4804-A986-E1F21AF35871}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.237251231527094"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.210680568898053"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0825221674876847"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.21130752990851"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fire.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="87583565"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fire" ID="{C2340875-100C-4804-A986-E1F21AF35871}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fire_01" ID="{9B8B0EF0-3FC2-44EA-81A9-6C64F3D777C0}" ShortID="678644874">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX" ID="{BE7FBC91-4729-4D8E-A1E1-1E948448D76C}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fire" ID="{4645E7AF-FDD8-4CE7-B8E9-B2447C1AFBA0}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.237251231527094"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.210680568898053"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0825221674876847"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.21130752990851"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fire.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="87583565"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fire" ID="{4645E7AF-FDD8-4CE7-B8E9-B2447C1AFBA0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fire_02" ID="{8C02C145-10B0-4141-9FFC-691AF3D2F093}" ShortID="190389176">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX" ID="{BE7FBC91-4729-4D8E-A1E1-1E948448D76C}" WorkUnitID="{B7760A34-E576-494B-B62A-D3DDD47C49F0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{66814C8A-7278-45FD-8A38-3FDF3053C7EA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fire" ID="{7BA1077D-9BC8-4E1D-9CCB-226D8E12C438}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.237251231527094"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.210680568898053"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0825221674876847"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.21130752990851"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fire.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="87583565"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fire" ID="{7BA1077D-9BC8-4E1D-9CCB-226D8E12C438}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{77969380-A286-4F23-91DD-5713EBBB0F86}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="0.591715976331375"/>
+										<Property Name="PanY" Type="Real64" Value="70.8268330733229"/>
+									</PropertyList>
+								</Panner>
+								<Position Name="" ID="{81C27FED-3194-4940-A1FC-4C8D783C40BF}"/>
+							</PositioningInfo>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Fridge" ID="{E9CEA7E7-6846-4E0C-AC2A-ABC243B5990A}" ShortID="283572194">
