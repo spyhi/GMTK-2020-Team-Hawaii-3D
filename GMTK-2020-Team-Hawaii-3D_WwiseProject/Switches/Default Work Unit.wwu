@@ -8,6 +8,7 @@
 						<Switch Name="Set_1" ID="{F9DFC928-5217-48CA-82C8-C0DDFC2C45E0}"/>
 						<Switch Name="Set_2" ID="{4081E462-3120-49A2-B03F-0D8FD1B29BE0}"/>
 						<Switch Name="Set_3" ID="{2FC81129-A9E4-4233-A348-120805AD6F8F}"/>
+						<Switch Name="Blackout" ID="{4DD45F8C-DBBD-4B63-85C2-C507B00CDE27}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

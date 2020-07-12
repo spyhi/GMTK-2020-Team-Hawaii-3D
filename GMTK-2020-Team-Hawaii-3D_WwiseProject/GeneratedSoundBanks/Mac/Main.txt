@@ -12,16 +12,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	4072963231	Glass_Break			\Default Work Unit\Glass_Break	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	6496801	Toilet	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Toilet_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Toilet		1060384
-	180771755	Step_on_Tile_Light	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Step_on_Tile_Light_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Step\Tile\Step_on_Tile_Light		224552
-	333767623	Start_Toaster	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Start_Toaster_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Toaster\Start_Toaster		327648
-	404647811	Heavy_item_pickup	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Heavy_item_pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Heavy_item_pickup		226100
-	659916289	Knife_Spread	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Spread_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Spread		440244
-	695901837	Flower_Pot_Break	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Flower_Pot_Break_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Flower_Pot_Break		311736
-	720047862	Toaster_Done	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Toaster_Done_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Toaster\Toaster_Done		297284
-	831662318	Knife_Fall_to_Table	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Fall_to_Table_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Fall_to_Table		307052
-	931667527	Light_item_pickup	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Light_item_pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Light_item_pickup		214076
-	996287810	Knife_Slice	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Slice_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Slice		383564
-	1044387165	Knife_Fall_to_Ground	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Fall_to_Ground_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Fall_to_Ground		345044
-	1052134396	Glass_Break	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Glass_Break_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Glass_Break		280128
+	6496801	Toilet	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Toilet_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Toilet		53209
+	180771755	Step_on_Tile_Light	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Step_on_Tile_Light_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Step\Tile\Step_on_Tile_Light		3429
+	333767623	Start_Toaster	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Start_Toaster_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Toaster\Start_Toaster		10533
+	404647811	Heavy_item_pickup	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Heavy_item_pickup_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Heavy_item_pickup		3805
+	659916289	Knife_Spread	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Spread_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Spread		19804
+	695901837	Flower_Pot_Break	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Flower_Pot_Break_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Flower_Pot_Break		17518
+	720047862	Toaster_Done	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Toaster_Done_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Toaster\Toaster_Done		8422
+	831662318	Knife_Fall_to_Table	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Fall_to_Table_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Fall_to_Table		11370
+	931667527	Light_item_pickup	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Light_item_pickup_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Light_item_pickup		3545
+	996287810	Knife_Slice	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Slice_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Slice		14087
+	1044387165	Knife_Fall_to_Ground	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Knife_Fall_to_Ground_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Knife\Knife_Fall_to_Ground		13841
+	1052134396	Glass_Break	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Glass_Break_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Glass_Break		7252
 
