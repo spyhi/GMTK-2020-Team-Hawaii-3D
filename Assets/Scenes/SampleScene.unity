@@ -237,6 +237,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &28355887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28355885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5a66a563e8faf4c9aced30991f7dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110089a7c0662fd49b2e7c89771a4a8c,
+      type: 2}
+  stopSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  hands: {fileID: 0}
 --- !u!1001 &42291298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1658,6 +1680,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0053423927, y: 0.011881337, z: 0.029246047}
   m_Center: {x: -0.000016801112, y: -0.0002627072, z: 0.009287639}
+--- !u!114 &526127026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526127024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5a66a563e8faf4c9aced30991f7dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110089a7c0662fd49b2e7c89771a4a8c,
+      type: 2}
+  stopSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  hands: {fileID: 0}
 --- !u!114 &526127030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2284,9 +2328,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cabDoor: {fileID: 671501683}
-  cabDoorOn: 1
-  myBounds: {fileID: 671501686}
-  playerHandBounds: {fileID: 441828707}
+  cabDoorOn: 0
+  myBounds: {fileID: 0}
+  playerHandBounds: {fileID: 0}
   controlledLight: {fileID: 0}
 --- !u!65 &671501686
 BoxCollider:
@@ -2496,9 +2540,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cabDoor: {fileID: 686498964}
-  cabDoorOn: 1
-  myBounds: {fileID: 686498967}
-  playerHandBounds: {fileID: 441828707}
+  cabDoorOn: 0
+  myBounds: {fileID: 0}
+  playerHandBounds: {fileID: 0}
   controlledLight: {fileID: 0}
 --- !u!65 &686498967
 BoxCollider:
@@ -2930,9 +2974,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cabDoor: {fileID: 782043396}
-  cabDoorOn: 1
-  myBounds: {fileID: 782043399}
-  playerHandBounds: {fileID: 441828707}
+  cabDoorOn: 0
+  myBounds: {fileID: 0}
+  playerHandBounds: {fileID: 0}
   controlledLight: {fileID: 0}
 --- !u!65 &782043399
 BoxCollider:
@@ -3394,20 +3438,20 @@ MonoBehaviour:
   player: {fileID: 118641098}
   extinguisher: {fileID: 42291300}
   flowerpot: {fileID: 1510897779}
-  miscStarbucks: {fileID: 28355885}
-  miscStarbucks1: {fileID: 117166220}
-  miscStarbucks2: {fileID: 439076075}
-  miscFlowerpot: {fileID: 2122002023}
-  miscChair: {fileID: 1657011858}
-  miscChair1: {fileID: 1433127077}
-  miscMug: {fileID: 1220051510}
-  mainLight: {fileID: 443253762}
+  miscStarbucks: {fileID: 0}
+  miscStarbucks1: {fileID: 0}
+  miscStarbucks2: {fileID: 0}
+  miscFlowerpot: {fileID: 0}
+  miscChair: {fileID: 0}
+  miscChair1: {fileID: 0}
+  miscMug: {fileID: 0}
+  mainLight: {fileID: 0}
   FireInstantiable: {fileID: 1363159760}
   bagelscript: {fileID: 2143585283}
   handscript: {fileID: 441828706}
-  movescript: {fileID: 118641100}
-  objectivetext: {fileID: 1403892335}
-  descriptortext: {fileID: 1944831666}
+  movescript: {fileID: 0}
+  objectivetext: {fileID: 0}
+  descriptortext: {fileID: 0}
   completion: 0
 --- !u!1001 &987744827
 PrefabInstance:
@@ -4219,9 +4263,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cabDoor: {fileID: 1187327592}
-  cabDoorOn: 1
-  myBounds: {fileID: 1187327595}
-  playerHandBounds: {fileID: 441828707}
+  cabDoorOn: 0
+  myBounds: {fileID: 0}
+  playerHandBounds: {fileID: 0}
   controlledLight: {fileID: 0}
 --- !u!65 &1187327595
 BoxCollider:
@@ -4358,9 +4402,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cabDoor: {fileID: 1537858464}
-  cabDoorOn: 1
-  myBounds: {fileID: 1206674270}
-  playerHandBounds: {fileID: 441828707}
+  cabDoorOn: 0
+  myBounds: {fileID: 0}
+  playerHandBounds: {fileID: 0}
   controlledLight: {fileID: 0}
 --- !u!1 &1220051510 stripped
 GameObject:
@@ -4683,9 +4727,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cabDoor: {fileID: 1330068886}
-  cabDoorOn: 1
-  myBounds: {fileID: 1330068889}
-  playerHandBounds: {fileID: 441828707}
+  cabDoorOn: 0
+  myBounds: {fileID: 0}
+  playerHandBounds: {fileID: 0}
   controlledLight: {fileID: 0}
 --- !u!65 &1330068889
 BoxCollider:
@@ -5695,6 +5739,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12cfe1fd9728a4ba3a41b60fb9401cfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1510897784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510897779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5a66a563e8faf4c9aced30991f7dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110089a7c0662fd49b2e7c89771a4a8c,
+      type: 2}
+  stopSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  hands: {fileID: 0}
 --- !u!1001 &1526207711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7261,9 +7327,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cabDoor: {fileID: 1905362970}
-  cabDoorOn: 1
-  myBounds: {fileID: 1905362973}
-  playerHandBounds: {fileID: 441828707}
+  cabDoorOn: 0
+  myBounds: {fileID: 0}
+  playerHandBounds: {fileID: 0}
   controlledLight: {fileID: 0}
 --- !u!65 &1905362973
 BoxCollider:
@@ -7382,9 +7448,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cabDoor: {fileID: 0}
   cabDoorOn: 0
-  myBounds: {fileID: 2015260596}
-  playerHandBounds: {fileID: 441828707}
-  controlledLight: {fileID: 443253762}
+  myBounds: {fileID: 0}
+  playerHandBounds: {fileID: 0}
+  controlledLight: {fileID: 0}
 --- !u!54 &2015260595
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7401,12 +7467,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &2015260596 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 6831910540688736599, guid: 5418872a8b6fbed4aa7d523cc2b43f0b,
-    type: 3}
-  m_PrefabInstance: {fileID: 148225890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2015260597 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6432665348576498788, guid: 5418872a8b6fbed4aa7d523cc2b43f0b,
@@ -7528,9 +7588,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cabDoor: {fileID: 2040596372}
-  cabDoorOn: 1
-  myBounds: {fileID: 2040596375}
-  playerHandBounds: {fileID: 441828707}
+  cabDoorOn: 0
+  myBounds: {fileID: 0}
+  playerHandBounds: {fileID: 0}
   controlledLight: {fileID: 0}
 --- !u!65 &2040596375
 BoxCollider:
@@ -7933,6 +7993,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2122002028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122002023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5a66a563e8faf4c9aced30991f7dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 110089a7c0662fd49b2e7c89771a4a8c,
+      type: 2}
+  stopSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  hands: {fileID: 0}
 --- !u!4 &2143585282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7623384633489997696, guid: 2f94edc4e6d3e7045a0f276db33eaa1f,
@@ -8043,8 +8125,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kitchen_Knife_Asset
       objectReference: {fileID: 0}
-    m_RemovedComponents: [{fileID: 30116167410921152, guid: 3292e4fd4b2dc5149bb671ef33e198db,
-        type: 3}]
+    m_RemovedComponents:
+    - {fileID: 30116167410921152, guid: 3292e4fd4b2dc5149bb671ef33e198db, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3292e4fd4b2dc5149bb671ef33e198db, type: 3}
 --- !u!4 &543450653700225135 stripped
 Transform:
