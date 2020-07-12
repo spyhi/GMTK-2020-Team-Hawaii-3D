@@ -27,7 +27,7 @@ public class SFXobjects : MonoBehaviour
                 playSFX.Post(gameObject);
             }
         }
-        else
+        else if (holding == true && gameObject.layer != LayerMask.NameToLayer("Grabbed Object"))
         {
             holding = false;
             stopSFX.Post(gameObject);
