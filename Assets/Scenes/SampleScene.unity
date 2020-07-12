@@ -1012,6 +1012,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9138498631681542435, guid: 63aa3a0466378aa449c7c32f06ae6983,
+        type: 3}
+      propertyPath: switchSets.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9138498631681542435, guid: 63aa3a0466378aa449c7c32f06ae6983,
+        type: 3}
+      propertyPath: CompletionProgress
+      value: 
+      objectReference: {fileID: 963194225}
+    - target: {fileID: 9138498631681542435, guid: 63aa3a0466378aa449c7c32f06ae6983,
+        type: 3}
+      propertyPath: switchSets.Array.data[3].WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 328c8e65bc7140946b10a6899697b3a4,
+        type: 2}
     - target: {fileID: 9138498631681542437, guid: 63aa3a0466378aa449c7c32f06ae6983,
         type: 3}
       propertyPath: m_Name
