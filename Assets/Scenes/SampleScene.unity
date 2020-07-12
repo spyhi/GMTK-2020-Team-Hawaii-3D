@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blastZone: {fileID: 1845374400}
-  smoke: {fileID: 1346506765}
+  smoke: {fileID: 0}
 --- !u!54 &42291302
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -341,15 +341,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118641098}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.009081, y: 1.81, z: -0.85075}
+  m_LocalRotation: {x: -0, y: 0.95241445, z: -0, w: -0.30480605}
+  m_LocalPosition: {x: 0.39331114, y: 1.81, z: 2.6253953}
   m_LocalScale: {x: 2.5565157, y: 2.5565157, z: 2.5565157}
   m_Children:
   - {fileID: 963194228}
   - {fileID: 723667658}
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 215.493, z: 0}
 --- !u!1 &120892242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2537,12 +2537,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231938889}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1346506765 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 655875817771840955, guid: 171f7e4636cc947bfbc97ca0015d6833,
-    type: 3}
-  m_PrefabInstance: {fileID: 219300735}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1232533378
 GameObject:
   m_ObjectHideFlags: 0
