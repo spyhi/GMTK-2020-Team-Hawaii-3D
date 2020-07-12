@@ -31,8 +31,8 @@ public class Extinguisher : MonoBehaviour
         {
             if (other.tag == "Fire")
             {
-                GameObject.Destroy(other.gameObject);
                 print("Fire found!");
+                GameObject.Destroy(other.gameObject);
             }
             else
             {
