@@ -4841,5 +4841,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: BagelPieces
       objectReference: {fileID: 0}
+    - target: {fileID: 7623384633659163708, guid: 2f94edc4e6d3e7045a0f276db33eaa1f,
+        type: 3}
+      propertyPath: handscript
+      value: 
+      objectReference: {fileID: 441828706}
+    - target: {fileID: 7623384635213065715, guid: 2f94edc4e6d3e7045a0f276db33eaa1f,
+        type: 3}
+      propertyPath: handscript
+      value: 
+      objectReference: {fileID: 441828706}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f94edc4e6d3e7045a0f276db33eaa1f, type: 3}

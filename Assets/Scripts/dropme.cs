@@ -5,9 +5,9 @@ using UnityEngine;
 public class dropme : MonoBehaviour
 {
     void OnCollisionEnter(Collision other){
-        print("DROPME: " + other.collider.tag);
         if((other.collider.CompareTag("Player") || other.collider.CompareTag("Environment")) && this.gameObject.layer == 8)
         {//if object is on layer 8 ("grabbed") it is beind held.
+            print("DROPME: " + other.collider.tag);
             gameObject.GetComponent<Rigidbody>().isKinematic = false;
             SetAllToLayer(gameObject.transform, 11, 8); // 11: interactable / grabbable objects
             gameObject.transform.parent.transform.DetachChildren();
