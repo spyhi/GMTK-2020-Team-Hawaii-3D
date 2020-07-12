@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{D714A4A9-4651-462D-8FE1-3194404E1655}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{39C982AA-24AC-43CE-8250-458BAF7D2088}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>100000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Knife_Fall_To_Ground" ID="{EBA84A87-6C41-41FB-BA23-83AFDE027409}" WorkUnitID="{A639AE57-1B64-48A7-B293-AAEDE5AB09C6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Knife_Spread" ID="{8A9E8360-7F77-4263-A360-654E117C118F}" WorkUnitID="{A639AE57-1B64-48A7-B293-AAEDE5AB09C6}" Origin="Manual" Filter="7"/>
@@ -16,6 +23,20 @@
 						<ObjectRef Name="Pick_up_heavy_item" ID="{64157566-26EB-4DFB-A7BE-7C37BCE5A35E}" WorkUnitID="{A639AE57-1B64-48A7-B293-AAEDE5AB09C6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Knife_Slice" ID="{948CF3DA-56E9-4E6C-90B7-3C644FC5D086}" WorkUnitID="{A639AE57-1B64-48A7-B293-AAEDE5AB09C6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Knife_Fall_To_Table" ID="{65EB5F6A-9F18-4F71-8896-93A3132BF5CB}" WorkUnitID="{A639AE57-1B64-48A7-B293-AAEDE5AB09C6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{E8F072EB-7591-49C3-BEA5-9EA9ACBA5EE9}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>100000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Sets" ID="{327E5EC4-715A-4121-B54E-6DA85586572A}" WorkUnitID="{A639AE57-1B64-48A7-B293-AAEDE5AB09C6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

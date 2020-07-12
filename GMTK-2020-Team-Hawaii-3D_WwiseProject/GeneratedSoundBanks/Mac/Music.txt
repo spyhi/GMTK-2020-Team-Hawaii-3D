@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3146000110	Music_Sets			\Default Work Unit\Music_Sets	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	434141750	Sets			\Default Work Unit\Sets	
+
+Switch	ID	Name	Switch Group			Notes
+	1048927694	Blackout	Sets			
+	3596629724	Set_2	Sets			
+	3596629725	Set_3	Sets			
+	3596629727	Set_1	Sets			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	84486684	Vln Virtuoso_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Vln Virtuoso_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 3\Set 3\Vln Virtuoso_112bpm_4-4_L24-P0		410082
+	124299054	Piano_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Piano_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 1\Set 1\Piano_112bpm_4-4_L24-P0		685705
+	260854888	Vln Harmonic_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Vln Harmonic_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 3\Set 3\Vln Harmonic_112bpm_4-4_L24-P0		757891
+	344440271	Clarinet_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Clarinet_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 2\Set 2\Clarinet_112bpm_4-4_L24-P0		616514
+	424537797	Contra Bass_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Contra Bass_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 3\Set 3\Contra Bass_112bpm_4-4_L24-P0		661253
+	437337874	Vc Chamber_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Vc Chamber_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 3\Set 3\Vc Chamber_112bpm_4-4_L24-P0		692272
+	442523054	Flute_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Flute_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 2\Set 2\Flute_112bpm_4-4_L24-P0		243688
+	666605003	Oboe_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Oboe_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 1\Set 1\Oboe_112bpm_4-4_L24-P0		531293
+	780464273	Vln Chamber_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Vln Chamber_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 1\Set 1\Vln Chamber_112bpm_4-4_L24-P0		777879
+	849269128	Vibraphone_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Vibraphone_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 2\Set 2\Vibraphone_112bpm_4-4_L24-P0		654705
+	948286565	Blackout Set 1_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Blackout Set 1_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Blackout\Blackout\Blackout Set 1_112bpm_4-4_L24-P0		881444
+	985366327	Marimba_112bpm_4-4_L24-P0	D:\Fabian_Files\Unity_Files\GMTK-2020-Team-Hawaii-3D\GMTK-2020-Team-Hawaii-3D_WwiseProject\.cache\Mac\SFX\Looping Theme 1\Marimba_112bpm_4-4_L24-P0_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Sets\Set 2\Set 2\Marimba_112bpm_4-4_L24-P0		696756
+
