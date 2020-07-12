@@ -8043,8 +8043,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kitchen_Knife_Asset
       objectReference: {fileID: 0}
-    m_RemovedComponents: [{fileID: 30116167410921152, guid: 3292e4fd4b2dc5149bb671ef33e198db,
-        type: 3}]
+    m_RemovedComponents:
+    - {fileID: 30116167410921152, guid: 3292e4fd4b2dc5149bb671ef33e198db, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3292e4fd4b2dc5149bb671ef33e198db, type: 3}
 --- !u!4 &543450653700225135 stripped
 Transform:
