@@ -37,7 +37,7 @@ public class BlackoutController : MonoBehaviour
     void Update()
     {
         CalculateCompletion();
-        print(completion);
+        //print(completion);
         if(Input.GetKeyDown(KeyCode.V) || completion >= 1)
         {
             Blackout();

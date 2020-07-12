@@ -46,7 +46,11 @@ public class hand_controller : MonoBehaviour
     }
     void OnTriggerStay(Collider other)
     {
-        target = other;
+        if (!other.CompareTag("Environment"))
+        {
+            target = other;
+        }
+
     }
     void OnTriggerExit(Collider other)
     {
@@ -72,6 +76,10 @@ public class hand_controller : MonoBehaviour
             grabbedObject.isKinematic = false;
             SetAllToLayer(grabbedObject.transform, 11, 8); // 11: interactable / grabbable objects
             gameObject.transform.DetachChildren();
+            Debug.Log("LET GO: " + grabbedObject);
+            //fly straight and true
+            grabbedObject.rotation = gameObject.GetComponentInParent<Rigidbody>().rotation;
+            grabbedObject.AddRelativeForce(new Vector3(0, 250, 1000));
         }
     }
 
