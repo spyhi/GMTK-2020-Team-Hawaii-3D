@@ -119,6 +119,100 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3146000110" Name="Music_Sets" ObjectPath="\Events\Default Work Unit\Music_Sets" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="84486684" Language="SFX">
+							<ShortName>Looping Theme 1\Vln Virtuoso_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Vln Virtuoso_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="124299054" Language="SFX">
+							<ShortName>Looping Theme 1\Piano_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Piano_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="260854888" Language="SFX">
+							<ShortName>Looping Theme 1\Vln Harmonic_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Vln Harmonic_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="344440271" Language="SFX">
+							<ShortName>Looping Theme 1\Clarinet_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Clarinet_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="424537797" Language="SFX">
+							<ShortName>Looping Theme 1\Contra Bass_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Contra Bass_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="437337874" Language="SFX">
+							<ShortName>Looping Theme 1\Vc Chamber_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Vc Chamber_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="442523054" Language="SFX">
+							<ShortName>Looping Theme 1\Flute_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Flute_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="666605003" Language="SFX">
+							<ShortName>Looping Theme 1\Oboe_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Oboe_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="780464273" Language="SFX">
+							<ShortName>Looping Theme 1\Vln Chamber_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Vln Chamber_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="849269128" Language="SFX">
+							<ShortName>Looping Theme 1\Vibraphone_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Vibraphone_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="948286565" Language="SFX">
+							<ShortName>Looping Theme 1\Blackout Set 1_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Blackout Set 1_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+						<File Id="985366327" Language="SFX">
+							<ShortName>Looping Theme 1\Marimba_112bpm_4-4_L24-P0.wav</ShortName>
+							<Path>SFX\Looping Theme 1\Marimba_112bpm_4-4_L24-P0_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{4DD45F8C-DBBD-4B63-85C2-C507B00CDE27}">
+							<Media>
+								<File Id="948286565"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F9DFC928-5217-48CA-82C8-C0DDFC2C45E0}">
+							<Media>
+								<File Id="780464273"/>
+								<File Id="666605003"/>
+								<File Id="124299054"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4081E462-3120-49A2-B03F-0D8FD1B29BE0}">
+							<Media>
+								<File Id="344440271"/>
+								<File Id="985366327"/>
+								<File Id="849269128"/>
+								<File Id="442523054"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2FC81129-A9E4-4233-A348-120805AD6F8F}">
+							<Media>
+								<File Id="84486684"/>
+								<File Id="424537797"/>
+								<File Id="260854888"/>
+								<File Id="437337874"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="434141750" Name="Sets" ObjectPath="\Switches\Default Work Unit\Sets">
+					<Switches>
+						<Switch Id="3596629727" Name="Set_1" ObjectPath="\Switches\Default Work Unit\Sets\Set_1"/>
+						<Switch Id="3596629724" Name="Set_2" ObjectPath="\Switches\Default Work Unit\Sets\Set_2"/>
+						<Switch Id="3596629725" Name="Set_3" ObjectPath="\Switches\Default Work Unit\Sets\Set_3"/>
+						<Switch Id="1048927694" Name="Blackout" ObjectPath="\Switches\Default Work Unit\Sets\Blackout"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

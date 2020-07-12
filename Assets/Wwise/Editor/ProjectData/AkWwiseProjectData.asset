@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5eb159018072fd4db3f6436468fd8768
     GuidInternal: 
-    m_lastTime: -8586071706303633173
+    m_lastTime: -8586070686883811353
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 8a4c81667872fd458a383fdf3053c7ea
     GuidInternal: 
-    m_lastTime: -8586071669060383431
+    m_lastTime: -8586070686884708938
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a9a414d751462d468fe13194404e1655
     GuidInternal: 
-    m_lastTime: -8586071661604451352
+    m_lastTime: -8586070656085758202
     List:
     - name: Main
       guid: aa82c939ac24ce438250458baf7d2088
@@ -51,12 +51,21 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
       Path: Default Work Unit\Main
+    - name: Music
+      guid: eb72f0e89175c349bea59ea9acba5ee9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit\Music
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 57ae39a6641ba748b293aaede5ab09c6
     GuidInternal: 
-    m_lastTime: -8586070995051882905
+    m_lastTime: -8586070667024110385
     List:
     - name: Flower_Pot_Break
       guid: c3191a4a01dea4458cef2937cbb88494
@@ -130,6 +139,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.495352
       minDuration: 2.495352
+    - name: Music_Sets
+      guid: c45e7e325a712141b54e6da85586572a
+      id: 3146000110
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_Sets
+        ObjectType: 3
+      Path: Default Work Unit\Music_Sets
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Pick_up_heavy_item
       guid: 66751564eb26fb4da7be7c37bce5a35e
       id: 3599771080
@@ -195,28 +216,111 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 63b4615ba10fd74aabcca620fea326ad
     GuidInternal: 
-    m_lastTime: -8586071706303434153
-    List: []
+    m_lastTime: -8586070686885347239
+    List:
+    - name: Sets
+      guid: c8b0dd846efff3448de327f21661182b
+      id: 434141750
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sets
+        ObjectType: 13
+      Path: Default Work Unit\Sets
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 5c5302eb5c19de43854049561d8897ff
     GuidInternal: 
-    m_lastTime: -8586071706303194832
-    List: []
+    m_lastTime: -8586070686883831294
+    List:
+    - name: Music_States
+      guid: e8ebecada8955a40bc42c555f03a364b
+      id: 1690668539
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_States
+        ObjectType: 9
+      Path: Default Work Unit\Music_States
+      values:
+      - name: None
+        guid: 08c17d9a18293544990dae76564f466e
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Set_1
+        guid: ba00805f90a39d4a864c1efb1b6cbfdf
+        id: 3596629727
+        PathAndIcons:
+        - ElementName: Set_1
+          ObjectType: 8
+      - name: Set_2
+        guid: 2553f8e35b82024b9cf9cf4b2b64ff82
+        id: 3596629724
+        PathAndIcons:
+        - ElementName: Set_2
+          ObjectType: 8
+      - name: Set_3
+        guid: f477140b34c64149962415b348e0823a
+        id: 3596629725
+        PathAndIcons:
+        - ElementName: Set_3
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 42c617ae287e574e978a143436c8fd14
     GuidInternal: 
-    m_lastTime: -8586071706302965011
-    List: []
+    m_lastTime: -8586070680467176746
+    List:
+    - name: Sets
+      guid: 45fb9cd79933dd409d3c5d5c9879b82b
+      id: 434141750
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sets
+        ObjectType: 11
+      Path: Default Work Unit\Sets
+      values:
+      - name: Blackout
+        guid: 8c5fd44dbddb634b85c2c507b00cde27
+        id: 1048927694
+        PathAndIcons:
+        - ElementName: Blackout
+          ObjectType: 10
+      - name: Set_1
+        guid: 28c9dff91752ca4882c8c0ddfc2c45e0
+        id: 3596629727
+        PathAndIcons:
+        - ElementName: Set_1
+          ObjectType: 10
+      - name: Set_2
+        guid: 62e481402031a249b03f0d8fd1b29be0
+        id: 3596629724
+        PathAndIcons:
+        - ElementName: Set_2
+          ObjectType: 10
+      - name: Set_3
+        guid: 2911c82fe4a93342a348120805ad6f8f
+        id: 3596629725
+        PathAndIcons:
+        - ElementName: Set_3
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: bf48eb8f4b29c54ea94f04be318333fa
     GuidInternal: 
-    m_lastTime: -8586071706303593358
+    m_lastTime: -8586070686883811353
     List: []
   ExpandedItems:
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject
@@ -224,5 +328,9 @@ MonoBehaviour:
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Events/Default Work Unit
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/SoundBanks
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/SoundBanks/Default Work Unit
+  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/States
+  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Switches
+  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Switches/Default Work Unit
+  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Switches/Default Work Unit/Sets
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
