@@ -34,7 +34,10 @@ public class hand_controller : MonoBehaviour
     }
     void OnTriggerStay(Collider other)
     {
-        target = other;
+        if (!other.CompareTag("Environment")){
+            target = other;
+        }
+        
     }
     void OnTriggerExit(Collider other){
         target = null;
