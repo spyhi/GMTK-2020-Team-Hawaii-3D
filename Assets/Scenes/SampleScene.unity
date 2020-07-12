@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blastZone: {fileID: 1845374400}
-  smoke: {fileID: 0}
+  smoke: {fileID: 1403424822}
 --- !u!54 &42291302
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2852,6 +2852,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1403424822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 655875817771840955, guid: 171f7e4636cc947bfbc97ca0015d6833,
+    type: 3}
+  m_PrefabInstance: {fileID: 219300735}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1413760965
 GameObject:
   m_ObjectHideFlags: 0
