@@ -66,6 +66,7 @@ GameObject:
   - component: {fileID: 7623384633659163705}
   - component: {fileID: 7623384633659163704}
   - component: {fileID: 7623384633659163708}
+  - component: {fileID: 8861855358502049026}
   m_Layer: 11
   m_Name: BagelHalf2
   m_TagString: CanGrab
@@ -177,6 +178,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bagelscript: {fileID: 7623384633489997697}
+--- !u!114 &8861855358502049026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623384633659163706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12cfe1fd9728a4ba3a41b60fb9401cfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7623384634688469148
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,6 +203,7 @@ GameObject:
   - component: {fileID: 7623384634688469155}
   - component: {fileID: 7623384634688469153}
   - component: {fileID: 7623384634688469154}
+  - component: {fileID: 125615885885986067}
   m_Layer: 11
   m_Name: Bagel
   m_TagString: CanGrab
@@ -288,6 +302,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1865056248366311061, guid: f2256cb2c38dd8a40ad850333ea2f2eb, type: 3}
+--- !u!114 &125615885885986067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623384634688469148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12cfe1fd9728a4ba3a41b60fb9401cfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7623384635213065705
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +328,7 @@ GameObject:
   - component: {fileID: 7623384635213065708}
   - component: {fileID: 7623384635213065711}
   - component: {fileID: 7623384635213065715}
+  - component: {fileID: 5132623868369370279}
   m_Layer: 11
   m_Name: BagelHalf1
   m_TagString: CanGrab
@@ -413,3 +440,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bagelscript: {fileID: 7623384633489997697}
+--- !u!114 &5132623868369370279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623384635213065705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12cfe1fd9728a4ba3a41b60fb9401cfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
