@@ -23,6 +23,7 @@ public class SFXmanager : MonoBehaviour
         {
             PickupItem.Post(gameObject);
         }
+
     }
 
 }
