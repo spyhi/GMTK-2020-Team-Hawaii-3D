@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 57ae39a6641ba748b293aaede5ab09c6
     GuidInternal: 
-    m_lastTime: -8586071662783455025
+    m_lastTime: -8586070995051882905
     List:
     - name: Flower_Pot_Break
       guid: c3191a4a01dea4458cef2937cbb88494
@@ -68,8 +68,44 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Flower_Pot_Break
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.766848
+      minDuration: 1.766848
+    - name: Glass_Break
+      guid: e5ba6b5c6cc0f748bd7ac4ee60d88194
+      id: 4072963231
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Glass_Break
+        ObjectType: 3
+      Path: Default Work Unit\Glass_Break
+      maxAttenuation: 0
+      maxDuration: 1.587664
+      minDuration: 1.587664
+    - name: Knife_Fall_To_Ground
+      guid: 874aa8eb416cfb41ba2383afde027409
+      id: 151037018
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Knife_Fall_To_Ground
+        ObjectType: 3
+      Path: Default Work Unit\Knife_Fall_To_Ground
+      maxAttenuation: 0
+      maxDuration: 1.955669
+      minDuration: 1.955669
+    - name: Knife_Fall_To_Table
+      guid: 6a5feb65189f714f889693a3132bf5cb
+      id: 3797642581
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Knife_Fall_To_Table
+        ObjectType: 3
+      Path: Default Work Unit\Knife_Fall_To_Table
+      maxAttenuation: 0
+      maxDuration: 1.740295
+      minDuration: 1.740295
     - name: Knife_Slice
       guid: daf38c94e9566c4e90b73c644fc5d086
       id: 2904656527
@@ -94,6 +130,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.495352
       minDuration: 2.495352
+    - name: Pick_up_heavy_item
+      guid: 66751564eb26fb4da7be7c37bce5a35e
+      id: 3599771080
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pick_up_heavy_item
+        ObjectType: 3
+      Path: Default Work Unit\Pick_up_heavy_item
+      maxAttenuation: 0
+      maxDuration: 1.281383
+      minDuration: 1.281383
+    - name: Pick_up_light_item
+      guid: cc8e0ec7c95a2f4d8498d6a79d372970
+      id: 2407603051
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pick_up_light_item
+        ObjectType: 3
+      Path: Default Work Unit\Pick_up_light_item
+      maxAttenuation: 0
+      maxDuration: 1.21322
+      minDuration: 1.21322
     - name: Play_Toaster
       guid: 00afdde696dcf842b17582f5342b9e0d
       id: 3611497574
@@ -106,6 +166,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.684921
       minDuration: 3.684921
+    - name: Player_Step
+      guid: b5b6b413ced23748b197e18d9897bfd5
+      id: 3461836331
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_Step
+        ObjectType: 3
+      Path: Default Work Unit\Player_Step
+      maxAttenuation: 0
+      maxDuration: 1.371848
+      minDuration: 1.215139
+    - name: Toilet_Flush
+      guid: 83140dd89aed4c4bab5d2c7ae695bf06
+      id: 3116711629
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Toilet_Flush
+        ObjectType: 3
+      Path: Default Work Unit\Toilet_Flush
+      maxAttenuation: 0
+      maxDuration: 6.010884
+      minDuration: 6.010884
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -139,5 +223,6 @@ MonoBehaviour:
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Events
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/Events/Default Work Unit
   - /GMTK-2020-Team-Hawaii-3D_WwiseProject/SoundBanks
+  - /GMTK-2020-Team-Hawaii-3D_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
