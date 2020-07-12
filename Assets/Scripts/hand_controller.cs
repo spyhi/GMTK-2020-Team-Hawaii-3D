@@ -10,6 +10,7 @@ public class hand_controller : MonoBehaviour
     public Collider target;
     public GameObject noObject; //"null object", but it has a name parameter, so no need to try/catch or check null
     public GameObject currentHeldObject;
+    bool safeToDrop;
 
     private void Start()
     {
@@ -43,12 +44,16 @@ public class hand_controller : MonoBehaviour
                 DropHeld();
             }
         }
+        safeToDrop = false;
     }
     void OnTriggerStay(Collider other)
     {
         if (!other.CompareTag("Environment"))
         {
             target = other;
+        } else
+        {
+            safeToDrop = true;
         }
 
     }
@@ -75,12 +80,13 @@ public class hand_controller : MonoBehaviour
             Rigidbody grabbedObject = gameObject.transform.GetChild(0).GetComponent<Rigidbody>();
             grabbedObject.isKinematic = false;
             SetAllToLayer(grabbedObject.transform, 11, 8); // 11: interactable / grabbable objects
-            gameObject.transform.DetachChildren();
             Debug.Log("LET GO: " + grabbedObject);
             //fly straight and true
             grabbedObject.rotation = gameObject.GetComponentInParent<Rigidbody>().rotation;
-            grabbedObject.AddRelativeForce(new Vector3(0, 250, 1000));
+            if (!safeToDrop) { grabbedObject.AddForce(this.transform.forward * 1000); };
+            gameObject.transform.DetachChildren();
         }
+
     }
 
     public void Pickup(GameObject object1)
